@@ -1,5 +1,5 @@
-# Wps
-Wps - wiper simples é um malware simples que realiza as seguintes funções
+# Wps droid
+Wps droid- versão do wps(wiper feito originalmente por darkZe010) adaptada para ambientes android
 
 1️⃣ engana o alvo dizendo que é um ransonware mas apaga do mesmo jeito.
 
@@ -28,4 +28,4 @@ INSTALAÇÃO (TERMUX):
 
 !! O criador desse malware não se responsabiliza pelo uso indevido do script !!
 
-# Shadowbyte Group
+# Shadowbyte Group and vøidh7
