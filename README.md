@@ -16,7 +16,7 @@ Este script é **malware** e pode causar **perda de dados** ou travamento do sis
 ## Funcionalidades
 
 1. Engana o usuário fingindo ser um ransomware, mas apaga arquivos do dispositivo de qualquer forma.  
-2. Tenta apagar arquivos do sistema em Windows ou Linux.  
+2. Tenta apagar arquivos do android
 3. Cria 300 arquivos de teste, abre cada um no bloco de notas para travar o dispositivo (simulação de ataque).  
 
 > O código foi **ofuscado e minimizado** para dificultar a detecção.  
