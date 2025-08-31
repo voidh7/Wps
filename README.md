@@ -1,5 +1,5 @@
 # TWps
-Wps - wiper simples é um malware simples que realiza as seguintes funções
+TWps - Trojan wiper simples é um malware simples que realiza as seguintes funções
 
 1️⃣ engana o alvo dizendo que é um ransonware mas apaga do mesmo jeito.
 
