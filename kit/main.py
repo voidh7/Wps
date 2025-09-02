@@ -1,3 +1,1 @@
 import wps
-
-wps.start()
