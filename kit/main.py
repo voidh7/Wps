@@ -1,0 +1,3 @@
+import wps
+
+wps.start()
